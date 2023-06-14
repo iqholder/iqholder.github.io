@@ -1,3 +1,4 @@
+// gallery box
 document.addEventListener("click", function (e) {
   if (e.target.classList.contains("gallery-item")) {
     const src = e.target.getAttribute("src");
@@ -7,6 +8,7 @@ document.addEventListener("click", function (e) {
   }
 });
 
+// navbar scroll berubah warna
 const navEl = document.querySelector(".navbar");
 window.addEventListener("scroll", () => {
   if (window.scrollY >= 56) {
@@ -15,3 +17,8 @@ window.addEventListener("scroll", () => {
     navEl.classList.remove("navbar-scrolled");
   }
 });
+
+// google translator
+function loadGoogleTranslate() {
+  new google.translate.TranslateElement("google_element");
+}

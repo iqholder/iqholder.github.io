@@ -2,10 +2,6 @@ body {
   background: f1fbff;
 }
 
-.section-padding {
-  padding: 100px 0;
-}
-
 .carousel-item {
   height: 100vh;
   min-height: 300px;
@@ -49,16 +45,26 @@ body {
   color: white !important;
 }
 
+.nav-link:hover {
+  color: rgb(72, 255, 72) !important;
+  transition: 0.5s;
+}
+
 .navbar-brand {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
 }
 
+.frozen-fish {
+  padding-top: 55px;
+}
+
 .w-100 {
   height: 100vh;
+  object-fit: cover;
 }
 
 .card {
@@ -82,6 +88,57 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
+/* Google Translator */
+
+.translated-ltr {
+  margin-top: -40px;
+}
+
+.translated-ltr {
+  margin-top: -40px;
+}
+
+.goog-te-banner-frame {
+  display: none;
+  margin-top: -20px;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+#google_element {
+  left: 10px;
+  bottom: -5px;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd.skiptranslate {
+  display: none;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  display: none;
+}
+
+.goog-te-combo {
+  background: #212529;
+  color: white;
+  border-color: #212529;
+  border-radius: 100px 100px 100px 100px;
+  text-align: center;
+  width: 10%;
+}
+
+.text-white {
+  list-style: none;
+}
+
+/* Google Translator */
+
 /* Responsive CSS */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -91,6 +148,9 @@ body {
   .carousel-caption p {
     width: 100%;
     font-size: 16px;
+  }
+  .goog-te-combo {
+    width: 20%;
   }
 }
 
@@ -114,5 +174,9 @@ body {
     width: 100%;
     line-height: 1.6;
     font-size: 12px;
+  }
+
+  .goog-te-combo {
+    width: 40%;
   }
 }
