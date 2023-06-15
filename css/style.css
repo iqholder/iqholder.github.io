@@ -154,7 +154,11 @@ select.goog-te-combo {
   }
 
   .goog-te-combo {
-    width: auto;
+    width: 25%;
+  }
+
+  select.goog-te-combo {
+    text-align: center;
   }
 }
 
@@ -181,6 +185,10 @@ select.goog-te-combo {
   }
 
   .goog-te-combo {
-    width: auto;
+    width: 25%;
+  }
+
+  select.goog-te-combo {
+    text-align: center;
   }
 }
