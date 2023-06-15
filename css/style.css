@@ -129,8 +129,8 @@ body {
   color: white;
   border-color: #212529;
   border-radius: 100px 100px;
-  width: 8%;
-  text-align: center;
+  width: auto;
+  text-align: center !important;
 }
 
 .text-white {
