@@ -152,6 +152,7 @@ body {
 
   .goog-te-combo {
     width: 15%;
+    text-align: center;
   }
 }
 
@@ -177,6 +178,7 @@ body {
     font-size: 12px;
   }
   .goog-te-combo {
-    width: 15%;
+    width: 25%;
+    text-align: center;
   }
 }
