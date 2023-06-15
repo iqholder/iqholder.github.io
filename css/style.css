@@ -151,6 +151,7 @@ body {
   }
   .goog-te-combo {
     width: 20%;
+    text-align: center;
   }
 }
 
@@ -159,7 +160,7 @@ body {
     text-align: left;
   }
   .carousel-caption {
-    bottom: 125px;
+    bottom: 260px;
   }
 
   .carousel-caption h5 {
@@ -178,5 +179,6 @@ body {
 
   .goog-te-combo {
     width: 40%;
+    text-align: center;
   }
 }
