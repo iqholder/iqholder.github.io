@@ -149,11 +149,6 @@ body {
     width: 100%;
     font-size: 16px;
   }
-
-  .goog-te-combo {
-    width: 15%;
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -176,9 +171,5 @@ body {
     width: 100%;
     line-height: 1.6;
     font-size: 12px;
-  }
-  .goog-te-combo {
-    width: 25%;
-    text-align: center;
   }
 }
