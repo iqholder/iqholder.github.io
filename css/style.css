@@ -129,6 +129,7 @@ body {
   color: white;
   border-color: #212529;
   border-radius: 100px 100px;
+  width: 8%;
   text-align: center;
 }
 
@@ -147,6 +148,10 @@ body {
   .carousel-caption p {
     width: 100%;
     font-size: 16px;
+  }
+
+  .goog-te-combo {
+    width: 15%;
   }
 }
 
@@ -170,5 +175,8 @@ body {
     width: 100%;
     line-height: 1.6;
     font-size: 12px;
+  }
+  .goog-te-combo {
+    width: 15%;
   }
 }
