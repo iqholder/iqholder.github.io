@@ -158,7 +158,7 @@ select.goog-te-combo {
   }
 
   select.goog-te-combo {
-    text-align: center;
+    text-align: center !important;
   }
 }
 
@@ -189,6 +189,6 @@ select.goog-te-combo {
   }
 
   select.goog-te-combo {
-    text-align: center;
+    text-align: center !important;
   }
 }
