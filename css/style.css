@@ -156,10 +156,6 @@ select.goog-te-combo {
   .goog-te-combo {
     width: 25%;
   }
-
-  select.goog-te-combo {
-    text-align: center !important;
-  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -186,9 +182,5 @@ select.goog-te-combo {
 
   .goog-te-combo {
     width: 25%;
-  }
-
-  select.goog-te-combo {
-    text-align: center !important;
   }
 }
